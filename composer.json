@@ -1,0 +1,28 @@
+{
+	"name": "jstewmc/get-style",
+	"description": "Get a css inline style",
+	"keywords": ["php", "jstewmc", "css", "inline", "style"],
+	"authors": [
+		{
+			"name": "Jack Clayton",
+			"email": "clayjs0@gmail.com"	
+		}
+	],
+	"repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/jstewmc/test-case"
+        }   	
+	],
+	"require": {
+		"php": "^7.0"
+	},
+	"require-dev": {
+		"jstewmc/test-case": "^0.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Jstewmc\\GetStyle\\": "src/"
+		}
+	}
+}
