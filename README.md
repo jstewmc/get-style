@@ -1,5 +1,5 @@
 # get-style
-Get an inline Cascading Style Sheet (CSS) style.
+Get a Cascading Style Sheet (CSS) inline style from a PHP array.
 
 ```php
 use Jstewmc\GetStyle;
@@ -27,10 +27,10 @@ $css = new Get($styles);
 $css();           // returns "color: red; font-size: small;"
 $css('foo');      // returns "color: blue; font-size: medium;"
 $css('bar');      // returns "color: green; font-size: small;"
-$css('foo bar');  // returns "color: green; font-size: medium"
+$css('foo bar');  // returns "color: green; font-size: medium;"
 ```
 
-This library is a (very) simple (PHP) Cascading Style Sheet (CSS) reader. It does not claim to be a full CSS parser! There are several of those already. This library is just a quick and easy way to produce inline CSS from an array of styles.
+This library is a (very) simple PHP Cascading Style Sheet (CSS) reader. It does not claim to be a full CSS parser! There are several of those already. This library is just a quick and easy way to produce inline CSS from an array of styles.
 
 ## Names
 
