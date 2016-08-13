@@ -159,6 +159,12 @@ If a newline is inserted at the space in a declaration name, the declaration wil
 
 ## Version
 
+### 1.0.0, August 16, 2016
+
+* Major release
+* Update `composer.json`
+* Update comments
+
 ### 0.1.0, August 7, 2016
 
 * Initial release
