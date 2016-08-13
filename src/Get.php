@@ -1,6 +1,6 @@
 <?php
 /**
- * The file for the get-style class
+ * The file for the get-style service
  *
  * @author     Jack Clayton <clayjs0@gmail.com>
  * @copyright  2016 Jack Clayton
@@ -12,7 +12,7 @@ namespace Jstewmc\GetStyle;
 use InvalidArgumentException;
 
 /**
- * The get-style class
+ * The get-style service
  *
  * @since  0.1.0
  */
@@ -32,7 +32,7 @@ class Get
     /* !Magic methods */
     
     /**
-     * Called when the class is constructed
+     * Called when the service is constructed
      *
      * @param  mixed[]
      * @since  0.1.0
@@ -43,7 +43,7 @@ class Get
     }
     
     /**
-     * Called when the class is treated like a function
+     * Called when the service is treated like a function
      *
      * @param   string    $names  the style names (e.g., "foo bar baz") to use 
      *     (optional; if omitted, defaults to global style)

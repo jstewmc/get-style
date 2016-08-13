@@ -1,6 +1,6 @@
 <?php
 /**
- * The file for the get-style tests
+ * The file for the get-style service tests
  *
  * @author     Jack Clayton <clayjs0@gmail.com>
  * @copyright  2016 Jack Clayton
@@ -12,7 +12,7 @@ namespace Jstewmc\GetStyle;
 use Jstewmc\TestCase\TestCase;
 
 /**
- * Tests for the get-style test
+ * Tests for the get-style service test
  */
 class GetTest extends TestCase
 {
